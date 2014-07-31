@@ -1,0 +1,40 @@
+{
+  "name": "vcl-tab-nav",
+  "description": "List of navigation items arranged as tabs",
+  "version": "0.0.1",
+  "style": "index.styl",
+  "author": {
+    "name": "n-fuse Gmbh",
+    "email": "info@n-fuse.de",
+    "url": "www.n-fuse.de"
+  },
+  "contributors": [
+    {
+      "name": "Thomas Hoppe",
+      "email": "thomas.hoppe@n-fuse.de"
+    }
+  ],
+  "license": {
+    "type": "MIT"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vcl/tab.git"
+  },
+  "keywords": [
+    "css",
+    "vcl",
+    "component",
+    "tab"
+  ],
+  "vcldoc": {
+    "category": "",
+    "categoryPrio": 1,
+    "subCategory": "",
+    "subCategoryPrio": 1
+  }
+}

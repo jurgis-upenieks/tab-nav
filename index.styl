@@ -1,0 +1,286 @@
+.vclTabbable
+  margin-bottom: var(--block-elem-bottom-margin)
+  clear: fix
+
+.vclTabContent
+  padding: 0.8em
+
+.vclTabContent p:first-child
+  margin-top: 0
+
+.vclTabContent p:last-child
+  margin-bottom: 0
+
+.vclTabs
+  ul
+    list-style: none
+    list-style-type: none
+    width: 100%
+    padding: 0
+    margin: 0
+    clear: fix
+
+.vclTabs > ul li,
+.vclTabs > ul li:hover
+  float: left
+  border: 0
+  margin-right: 0.2em
+  background: none
+  position: relative
+  margin-right: 0.35em
+  min-width: 6em
+
+.vclTabs > ul li:last-child
+  margin-right: 0
+
+.vclTabs > ul li.vclSelected,
+.vclTabs > ul li.vclSelected:hover
+  border: 0
+
+.vclTabs > ul li > a,
+.vclTabs > ul li > a:hover,
+.vclTabs > ul li > a:hover,
+.vclTabs > ul li > div
+  height: 2em
+  line-height: 2em
+  display: block
+  padding: 0 2.1em 0 1em
+  border-radius: 0.35em 0.35em 0 0
+  font-weight: normal
+  min-width: 4em
+
+.vclTabs > ul li > div
+  padding-left: 0
+  padding-right: 0
+  min-width: 0
+
+.vclTabs > ul li.vclSelected > a,
+.vclTabs > ul li.vclSelected > a:hover
+  cursor: default
+  border-bottom: 0
+
+/* Uni style variant */
+
+.vclTabs.vclTabStyleUni > ul li,
+.vclTabs.vclTabStyleUni > ul li:hover
+  background: none
+  border: 0
+  margin-bottom: -1px
+
+.vclTabs.vclTabStyleUni > ul li a,
+.vclTabs.vclTabStyleUni > ul li:hover a
+  white-space: nowrap
+  cursor: pointer
+
+.vclTabs.vclTabStyleUni > ul li.vclSelected
+  background: none
+  border: 0
+
+/* Button in tab */
+
+.vclTabs > ul li > a.vclButtonStd,
+.vclTabs > ul li > a.vclButtonStd:hover
+  min-width: 0
+  position: absolute
+  top: 0
+  border: 0
+  right: 0
+  padding: 0
+  margin: 0
+  font-size: 1em
+  line-height: 1.7em
+  background: none
+  height: 100%
+
+.vclTabs > ul li.vclSelected > a.vclButtonStd,
+.vclTabs > ul li.vclSelected > a.vclButtonStd:hover
+  border: 0
+
+.vclTabs > ul li > a.vclButtonStd i
+  line-height: 2.4em
+
+.vclTabs > ul li.vclSelected > a.vclButtonStd:hover
+  background: none
+  cursor: pointer
+
+.vclTabs > ul li.vclButtonOnly
+  padding: 0
+  min-width: 2em
+
+.vclTabs > ul li.vclButtonOnly a
+  padding: 0 0.25em
+
+/* Tabs left */
+
+.vclTabbable.vclTabsLeft li,
+.vclTabbable.vclTabsLeft li:hover
+  float: none
+  margin: 0 0 0.35em 0
+  border-radius: 0.35em 0 0 0.35em
+
+.vclTabbable.vclTabsLeft a,
+.vclTabbable.vclTabsLeft a:hover
+  border-radius: 0.35em 0 0 0.35em
+
+.vclTabbable.vclTabsLeft .vclTabBorder ul,
+.vclTabbable.vclTabsLeft .vclTabStyleUni ul
+  border: 0
+
+.vclTabbable.vclTabsLeft .vclTabStyleUni ul li
+  border: 0
+  margin-bottom: 0
+  margin-right: -1px
+  background: none
+
+.vclTabbable.vclTabsLeft .vclTabStyleUni ul li a
+  margin-right: 1px
+  border-radius: 0.35em 0 0 0.35em
+
+.vclTabbable.vclTabsLeft .vclTabStyleUni ul li.vclSelected
+  border-right: 0
+
+.vclTabbable.vclTabsLeft .vclTabStyleUni ul li.vclSelected a
+  margin: 0
+
+.vclTabbable.vclTabsLeft .vclTabs
+  float: left
+
+.vclTabbable.vclTabsLeft .vclTabContent
+  float: left
+  display: block
+  border-bottom: 0
+
+/* tabs right */
+
+.vclTabbable.vclTabsRight li,
+.vclTabbable.vclTabsRight li:hover
+  float: none
+  margin: 0 0 0.35em 0
+  border-radius: 0 0.35em 0.35em 0
+
+.vclTabbable.vclTabsRight a,
+.vclTabbable.vclTabsRight a:hover
+  border-radius: 0 0.35em 0.35em 0
+
+.vclTabbable.vclTabsRight .vclTabBorder ul,
+.vclTabbable.vclTabsRight .vclTabStyleUni ul
+  border: 0
+
+.vclTabbable.vclTabsRight .vclTabStyleUni ul li
+  border: 0
+  margin-bottom: 0
+  margin-left: -1px
+  background: none
+
+.vclTabbable.vclTabsRight .vclTabStyleUni ul li a
+  margin-left: 1px
+  border-radius: 0 0.35em 0.35em 0
+
+.vclTabbable.vclTabsRight .vclTabStyleUni ul li.vclSelected
+  border-right: 0
+
+.vclTabbable.vclTabsRight .vclTabStyleUni ul li.vclSelected a
+  margin: 0
+
+.vclTabbable.vclTabsRight .vclTabs
+  float: right
+
+.vclTabbable.vclTabsRight .vclTabContent
+  float: right
+  display: block
+  border-bottom: 0
+
+
+.vclTabs
+  ul
+    li
+      & > a
+        &.vclButtonStd
+          i
+            color: var(--tab-nav-button-label-color)
+          &:hover
+            i
+              color: var(--tab-nav-button-label-hover-color)
+      &.vclSelected
+        & > a
+          &.vclButtonStd
+            i
+              color: var(--tab-nav-button-selected-label-color)
+        a
+          &.vclButtonStd
+            &:hover
+              color: var(--tab-nav-button-selected-label-color)
+  &.vclTabBorder
+    ul
+      border-bottom: 1px solid var(--tab-nav-border-color)
+  &.vclTabStyleUni
+    ul
+      border-bottom: 1px solid var(--tab-nav-border-color)
+      li
+        &.vclSelected
+          a
+            color: inherit
+            border: 1px solid var(--tab-nav-border-color)
+            border-bottom: 1px solid var(--tab-nav-bg-color--uni)
+            background-color: var(--tab-nav-bg-color--uni)
+
+.vclTabs ul li.vclSelected > a,
+.vclTabs ul li.vclSelected > a:hover
+  color: var(--tab-nav-hover-color)
+  background-color: var(--tab-nav-bg-hover-color)
+  border: 1px solid var(--tab-nav-bg-hover-color)
+
+.vclTabbable
+  .vclTabContent
+    border-bottom: 1px solid var(--tab-nav-border-color)
+  &.vclTabsLeft
+    .vclTabStyleUni
+      ul
+        li
+          a
+            background-color: var(--tab-nav-bg-color)
+          &.vclSelected
+            a
+              border: 1px solid var(--tab-nav-border-color)
+              border-right: 1px solid var(--tab-nav-bg-color)
+  &.vclTabsRight
+    .vclTabStyleUni
+      ul
+        li
+          a
+            background-color: var(--tab-nav-bg-color--uni)
+          &.vclSelected
+            a
+              border: 1px solid var(--tab-nav-border-color)
+              border-left: 1px solid var(--tab-nav-bg-color--uni)
+
+.vclTabs.vclTabStyleUni ul li a,
+.vclTabs.vclTabStyleUni ul li:hover a
+  background-color: var(--tab-nav-bg-color--uni)
+  border-color: var(--tab-nav-bg-color--uni)
+  border-bottom: 0
+
+.vclTabs.vclTabStyleUni ul li.vclSelected a
+  background-color: var(--tab-nav-bg-color--uni)
+  border-color: var(--tab-nav-border-color) var(--tab-nav-border-color) var(--tab-nav-bg-color)
+  border-image: none
+  border-style: solid
+  border-width: 1px
+  color: var(--tab-nav-color)
+
+/* tabs left */
+.vclTabbable.vclTabsLeft .vclTabBorder ul,
+.vclTabbable.vclTabsLeft .vclTabStyleUni ul
+  border-right: 1px solid var(--tab-nav-border-color)
+
+/* tabs right */
+.vclTabbable.vclTabsRight .vclTabBorder ul,
+.vclTabbable.vclTabsRight .vclTabStyleUni ul
+  border-left: 1px solid var(--tab-nav-border-color)
+
+.vclTabs ul li > a,
+.vclTabs ul li > a:hover,
+.vclTabs ul li > div
+  background-color: var(--tab-nav-bg-color)
+  border: 1px solid var(--tab-nav-bg-color)
+
