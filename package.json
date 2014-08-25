@@ -2,6 +2,7 @@
   "name": "vcl-tab-nav",
   "description": "List of navigation items arranged as tabs",
   "version": "0.0.1",
+  "main": "package.json",
   "style": "index.styl",
   "author": {
     "name": "n-fuse Gmbh",
