@@ -44,7 +44,7 @@
   height: 2em
   line-height: 2em
   display: block
-  padding: 0 2.1em 0 1em
+  padding: 0 0.5em 0 0.5em
   border-radius: 0.35em 0.35em 0 0
   font-weight: normal
   min-width: 4em
@@ -76,40 +76,6 @@
 .vclTabs.vclTabStyleUni > ul li.vclSelected
   background: none
   border: 0
-
-/* Button in tab */
-
-.vclTabs > ul li > .vclButtonStd,
-.vclTabs > ul li > .vclButtonStd:hover
-  min-width: 0
-  position: absolute
-  top: 0
-  border: 0
-  right: 0
-  padding: 0
-  margin: 0
-  font-size: 1em
-  line-height: 1.7em
-  background: none
-  height: 100%
-
-.vclTabs > ul li.vclSelected > .vclButtonStd,
-.vclTabs > ul li.vclSelected > .vclButtonStd:hover
-  border: 0
-
-.vclTabs > ul li > a.vclButtonStd i
-  line-height: 2.4em
-
-.vclTabs > ul li.vclSelected > .vclButtonStd:hover
-  background: none
-  cursor: pointer
-
-.vclTabs > ul li.vclButtonOnly
-  padding: 0
-  min-width: 2em
-
-.vclTabs > ul li.vclButtonOnly a
-  padding: 0 0.25em
 
 /* Tabs left */
 
@@ -152,8 +118,7 @@
   display: block
   border-bottom: 0
 
-/* tabs right */
-
+/* Tabs right */
 .vclTabbable.vclTabsRight li,
 .vclTabbable.vclTabsRight li:hover
   float: none
@@ -193,26 +158,22 @@
   display: block
   border-bottom: 0
 
-
 .vclTabs
   ul
     li
-      & > a
+      .vclButtonStd
+        i
+          color: var(--tab-nav-button-label-color)
+        &:hover
+          i
+            color: var(--tab-nav-button-label-hover-color)
+    .vclSelected
         &.vclButtonStd
           i
-            color: var(--tab-nav-button-label-color)
+            color: var(--tab-nav-button-selected-label-color)
+        .vclButtonStd
           &:hover
-            i
-              color: var(--tab-nav-button-label-hover-color)
-      &.vclSelected
-        & > a
-          &.vclButtonStd
-            i
-              color: var(--tab-nav-button-selected-label-color)
-        a
-          &.vclButtonStd
-            &:hover
-              color: var(--tab-nav-button-selected-label-color)
+            color: var(--tab-nav-button-selected-label-color)
   &.vclTabBorder
     ul
       border-bottom: 1px solid var(--tab-nav-border-color)
@@ -271,12 +232,12 @@
   border-width: 1px
   color: var(--tab-nav-color)
 
-/* tabs left */
+/* Tabs left */
 .vclTabbable.vclTabsLeft .vclTabBorder ul,
 .vclTabbable.vclTabsLeft .vclTabStyleUni ul
   border-right: 1px solid var(--tab-nav-border-color)
 
-/* tabs right */
+/* Tabs right */
 .vclTabbable.vclTabsRight .vclTabBorder ul,
 .vclTabbable.vclTabsRight .vclTabStyleUni ul
   border-left: 1px solid var(--tab-nav-border-color)
@@ -286,4 +247,3 @@
 .vclTabs ul li > div
   background-color: var(--tab-nav-bg-color)
   border: 1px solid var(--tab-nav-bg-color)
-
