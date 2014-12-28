@@ -39,16 +39,16 @@
 
 .vclTabs > ul li > a,
 .vclTabs > ul li > a:hover,
-.vclTabs > ul li > a:hover,
 .vclTabs > ul li > div
-  height: 2em
-  line-height: 2em
+  height: 2.5em
+  line-height: 2.5em
   display: block
   padding: 0 0.5em 0 0.5em
   border-radius: 0.35em 0.35em 0 0
   font-weight: normal
   min-width: 4em
   text-align: center
+  box-sizing: border-box
 
 .vclTabs > ul li > div
   padding-left: 0
@@ -181,7 +181,9 @@
     ul
       border-bottom: 1px solid var(--tab-nav-border-color)
       li
+        z-index: -1
         &.vclSelected
+          z-index: 0
           a
             color: inherit
             border: 1px solid var(--tab-nav-border-color)
