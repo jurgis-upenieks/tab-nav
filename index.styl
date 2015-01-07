@@ -181,9 +181,7 @@
     ul
       border-bottom: 1px solid var(--tab-nav-border-color)
       li
-        z-index: -1
         &.vclSelected
-          z-index: 0
           a
             color: inherit
             border: 1px solid var(--tab-nav-border-color)
@@ -222,11 +220,13 @@
 
 .vclTabs.vclTabStyleUni ul li a,
 .vclTabs.vclTabStyleUni ul li:hover a
+  background-clip: padding-box;
   background-color: var(--tab-nav-bg-color--uni)
-  border-color: var(--tab-nav-bg-color--uni)
-  border-bottom: 0
+  border-color: transparent
+  border-width: 1px
 
 .vclTabs.vclTabStyleUni ul li.vclSelected a
+  background-clip: border-box;
   background-color: var(--tab-nav-bg-color--uni)
   border-color: var(--tab-nav-border-color) var(--tab-nav-border-color) var(--tab-nav-bg-color)
   border-image: none
