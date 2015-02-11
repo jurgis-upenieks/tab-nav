@@ -1,7 +1,7 @@
 # [VCL](https://github.com/vcl/doc) tab-nav
 
 List of navigation items arranged as tabs.
-  
+
 ## Features
 
 ## Usage
@@ -11,15 +11,11 @@ A close-button is optional.
 An icon button only tab, for example to open new tabs like in the first example,
 can simply be created with the class `vclNopadding` and a standard button.
 
-{{{default}}}
-
-With the modifier class `vclTabBorder`, a border can be added
-to the bottom of the tab bar.
-
-{{{border}}}
+{{{basic}}}
 
 Add the modifier class `vclTabStyleUni` for uni colored tabs.
-The selected tab is opened to the content side respectively.
+This style is more suitable for showing tabs unobtrusively within
+content textual for example.
 
 {{{uni}}}
 
@@ -28,9 +24,7 @@ such as panels as shown in the panels examples
 There is also a class `vclTabbable` to create a wrapper
 element which adds proper margins for embedding
 in other content and the `vclTabContent` and `vclTabPanel`
-classes to lay out the content as shown below.
-
-{{{content}}}
+classes to lay out the content as shown in the uni style example.
 
 By default tabs are directed as shown on the previous section.
 Different directions are possible as shown below.
@@ -56,7 +50,6 @@ Modifier class `vclTabRight`.
 
 ## Modifiers
 
-- `vclTabBorder`
 - `vclTabStyleUni`
 
 ## Variables
