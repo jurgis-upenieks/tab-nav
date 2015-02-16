@@ -67,4 +67,3 @@ Modifier class `vclTabRight`.
 ## Demo
 
 [example.html](/demo/example.html) on GH-pages.
-
