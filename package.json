@@ -1,7 +1,7 @@
 {
   "name": "vcl-tab-nav",
   "description": "List of navigation items arranged as tabs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "package.json",
   "style": "index.styl",
   "author": {
@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "gulp": "^3.8.10",
-    "vcl-build-demo": "git://github.com/vcl/vcl-build-demo",
+    "vcl-build-demo": "git://github.com/vcl/build-demo",
     "vcl-default-theme": "git://github.com/vcl/default-theme",
     "vcl-default-theme-terms": "git://github.com/vcl/default-theme-terms",
     "normalize.css": "^3.0.2",
