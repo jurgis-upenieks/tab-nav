@@ -45,10 +45,11 @@
     "component",
     "tab"
   ],
-  "vcldoc": {
-    "category": "Navigations",
-    "categoryPrio": 5,
-    "subCategory": "",
-    "subCategoryPrio": 1
+  "vcl": {
+    "needs": ["theme"],
+    "provides": [],
+    "categories": [
+      {"title": "Navigations", "priority": 5}
+    ]
   }
 }
