@@ -10,8 +10,8 @@
     "url": "www.n-fuse.de"
   },
   "scripts": {
-    "test": "node ./node_modules/gulp/bin/gulp server",
-    "dev": "node ./node_modules/gulp/bin/gulp dev"
+    "test": "VCL_NO_PIPE=1 vcl --verbose ./package.json ./build/test.css",
+    "start": "node ./node_modules/gulp/bin/gulp dev"
   },
   "contributors": [
     {
@@ -24,15 +24,18 @@
   },
   "devDependencies": {
     "gulp": "^3.8.10",
+    "gulp-vcl-preprocessor": "git://github.com/vcl/gulp-vcl-preprocessor",
+    "normalize.css": "^3.0.2",
+    "pre-commit": "^1.0.6",
     "vcl-build-demo": "git://github.com/vcl/build-demo",
+    "vcl-button": "git://github.com/vcl/button",
     "vcl-default-theme": "git://github.com/vcl/default-theme",
     "vcl-default-theme-terms": "git://github.com/vcl/default-theme-terms",
-    "normalize.css": "^3.0.2",
-    "vcl-typography": "git://github.com/vcl/typography",
     "vcl-font-awesome": "git://github.com/vcl/font-awesome",
     "vcl-icon": "git://github.com/vcl/icon",
-    "vcl-button": "git://github.com/vcl/button",
-    "vcl-layout": "git://github.com/vcl/layout"
+    "vcl-layout": "git://github.com/vcl/layout",
+    "vcl-preprocessor": "git://github.com/vcl/preprocessor",
+    "vcl-typography": "git://github.com/vcl/typography"
   },
   "dependencies": {},
   "repository": {
@@ -46,10 +49,15 @@
     "tab"
   ],
   "vcl": {
-    "needs": ["theme"],
+    "needs": [
+      "theme"
+    ],
     "provides": [],
     "categories": [
-      {"title": "Navigations", "priority": 5}
+      {
+        "title": "Navigations",
+        "priority": 5
+      }
     ]
   }
 }
