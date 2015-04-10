@@ -23,6 +23,7 @@
     "type": "MIT"
   },
   "devDependencies": {
+    "font-awesome": "^4.3.0",
     "gulp": "^3.8.10",
     "gulp-vcl-preprocessor": "git://github.com/vcl/gulp-vcl-preprocessor",
     "normalize.css": "^3.0.2",
