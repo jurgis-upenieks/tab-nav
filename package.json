@@ -57,7 +57,8 @@
     "categories": [
       {
         "title": "Navigations",
-        "priority": 5
+        "itemPriority": 40,
+        "priority": 50
       }
     ]
   }
