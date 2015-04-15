@@ -11,13 +11,13 @@ A close-button is optional.
 An icon button only tab, for example to open new tabs like in the first example,
 can simply be created with the class `vclNopadding` and a standard button.
 
-{{{basic}}}
+[basic example](/demo/example-basic.html)
 
 Add the modifier class `vclTabStyleUni` for uni colored tabs.
 This style is more suitable for showing tabs unobtrusively within
 content textual for example.
 
-{{{uni}}}
+[uni example](/demo/example-uni.html)
 
 The content area of a tab panel can be built from various components
 such as panels as shown in the panels examples
@@ -31,15 +31,15 @@ Different directions are possible as shown below.
 
 Modifier class `vclTabLeft`.
 
-{{{left1}}}
+[left1 example](/demo/example-left1.html)
 
-{{{left2}}}
+[left2 example](/demo/example-left2.html)
 
 Modifier class `vclTabRight`.
 
-{{{right1}}}
+[right1 example](/demo/example-right1.html)
 
-{{{right2}}}
+[right2 example](/demo/example-right2.html)
 
 
 ## Classes
