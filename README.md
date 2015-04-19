@@ -31,15 +31,15 @@ Different directions are possible as shown below.
 
 Modifier class `vclTabLeft`.
 
-[left1 example](/demo/example-left1.html)
+[left1 example](/demo/example-left.html)
 
-[left2 example](/demo/example-left2.html)
+[left2 example](/demo/example-uni-left.html)
 
 Modifier class `vclTabRight`.
 
-[right1 example](/demo/example-right1.html)
+[right1 example](/demo/example-right.html)
 
-[right2 example](/demo/example-right2.html)
+[right2 example](/demo/example-uni-right.html)
 
 
 ## Classes
