@@ -40,7 +40,7 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/vcl/tab.git"
+    "url": "https://github.com/vcl/tab.git"
   },
   "keywords": [
     "css",
