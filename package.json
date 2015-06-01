@@ -19,9 +19,7 @@
       "email": "thomas.hoppe@n-fuse.de"
     }
   ],
-  "license": {
-    "type": "MIT"
-  },
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-vcl-preprocessor": "git://github.com/vcl/gulp-vcl-preprocessor",
