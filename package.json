@@ -33,7 +33,7 @@
     "vcl-icon": "git://github.com/vcl/icon",
     "vcl-layout": "git://github.com/vcl/layout",
     "vcl-preprocessor": "git://github.com/vcl/preprocessor",
-    "vcl-typography": "git://github.com/vcl/typography"
+    "vcl-typography": "vcl/typography"
   },
   "dependencies": {},
   "repository": {
