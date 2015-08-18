@@ -25,15 +25,20 @@
     "gulp-vcl-preprocessor": "git://github.com/vcl/gulp-vcl-preprocessor",
     "normalize.css": "^3.0.2",
     "pre-commit": "^1.0.6",
+    "vcl-app-content-area": "vcl/app-content-area",
+    "vcl-badge": "git://github.com/vcl/badge",
     "vcl-build-demo": "git://github.com/vcl/build-demo",
     "vcl-button": "git://github.com/vcl/button",
+    "vcl-container": "git://github.com/vcl/container",
     "vcl-default-theme": "git://github.com/vcl/default-theme",
     "vcl-default-theme-terms": "git://github.com/vcl/default-theme-terms",
     "vcl-font-awesome": "git://github.com/vcl/font-awesome",
+    "vcl-flex-layout": "git://github.com/vcl/flex-layout",
     "vcl-icon": "git://github.com/vcl/icon",
-    "vcl-layout": "git://github.com/vcl/layout",
+    "vcl-layout-spans": "vcl/layout-spans",
     "vcl-preprocessor": "git://github.com/vcl/preprocessor",
-    "vcl-typography": "vcl/typography"
+    "vcl-typography": "vcl/typography",
+    "vcl-utils": "vcl/utils"
   },
   "dependencies": {},
   "repository": {
