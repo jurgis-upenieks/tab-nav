@@ -67,7 +67,7 @@ Justified tabs can be achieved using the appropriate layout attributes.
 
 ## Classes
 
-- `vclTabbable`: Wrapper of tab bar and content area.
+- `vclTabbable`: Wrapper of tab bar and tab content area.
 - `vclTabs`: Tab bar.
 - `vclTab`: Tab.
 - `vclTabLabel`: Optional class for the label(s) inside the tab.
@@ -81,12 +81,11 @@ Justified tabs can be achieved using the appropriate layout attributes.
 - `vclTabsLeft`
 - `vclTabsRight`
 - `vclTabsBottom`
+- `vclNoBorder`: remove any border from `vclTabContent` and `vclTabs`.
 
 ### For `vclTabs`
 
 - `vclTabStyleUni`
-- `vclNoBorder`: For `vclTabContent` and `vclTabs`; remove any border from
-   nested tabs.
 - `vclTabNavJustified`
 
 ### For `vclTab`
