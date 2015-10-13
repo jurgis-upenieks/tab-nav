@@ -103,6 +103,7 @@ Justified tabs can be achieved using the appropriate layout attributes.
 - `--tab-nav-tab-bg-selected-color`
 - `--tab-nav-tab-bg-disabled-color`
 - `--tab-nav-tab-border-selected-color`
+- `--tab-nav-tab-disabled-color`
 - `--tab-nav-tab-color`
 - `--tab-nav-tab-selected-color`
 - `--tab-nav-tab-hover-color`
@@ -116,6 +117,7 @@ Justified tabs can be achieved using the appropriate layout attributes.
 - `--tab-nav-tab-bg-selected-color--uni`
 - `--tab-nav-tab-bg-disabled-color--uni`
 - `--tab-nav-tab-color--uni`
+- `--tab-nav-tab-disabled-color--uni`
 
 ## Demo
 
