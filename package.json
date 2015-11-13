@@ -24,7 +24,7 @@
     "gulp": "^3.9.0",
     "gulp-vcl-preprocessor": "git://github.com/vcl/gulp-vcl-preprocessor",
     "normalize.css": "^3.0.2",
-    "pre-commit": "^1.0.6",
+    "pre-commit": "^1.1.2",
     "vcl-app-area": "vcl/app-area",
     "vcl-app-content-area": "vcl/app-content-area",
     "vcl-badge": "git://github.com/vcl/badge",
