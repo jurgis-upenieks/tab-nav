@@ -2,12 +2,12 @@
   margin-bottom: var(--block-elem-vertical-gap)
   clear: fix
   &.vclNoBorder
-    .vclTabContent
+    & .vclTabContent
       border-bottom: 0
-    .vclTabs
+    & .vclTabs
       border-bottom: 0
-      .vclTab,
-      .vclTab:hover
+      & .vclTab,
+      & .vclTab:hover
         border: 0
         margin: 0
         &.vclSelected
@@ -26,19 +26,19 @@
   &.vclTabNavJustified
     display: flex
     flex-direction: row
-    .vclTab
+    & .vclTab
       flex: 1
-      .vclTab
+      & .vclTab
         width: 100%
-  .vclTab
+  & .vclTab
     border: 0
-    > .vclTabLabel
+    & > .vclTabLabel
       border: 0
       margin-right: 0.5em
       text-decoration: none
-    > .vclTabLabel:hover
+    & > .vclTabLabel:hover
       text-decoration: none
-    > .vclTabLabel:last-child
+    & > .vclTabLabel:last-child
       margin-right: 0
 
 .vclTabs .vclTab
@@ -75,13 +75,13 @@
 /* Coloring of normal variant */
 
 .vclTabs
-  .vclTab
+  & .vclTab
     padding-top: 0.25em
     color: var(--tab-nav-tab-color)
-    > a,
-    > a:hover,
-    > a:active,
-    > a:visited
+    & > a,
+    & > a:hover,
+    & > a:active,
+    & > a:visited
       color: var(--tab-nav-tab-color)
       outline: none
     background-color: var(--tab-nav-tab-bg-color)
@@ -90,14 +90,14 @@
     &:focus
       outline: none
       background-color: var(--tab-nav-tab-bg-hover-color)
-    .vclButton
+    & .vclButton
       height: auto
       color: var(--tab-nav-tab-button-label-color)
       &:hover
         color: var(--tab-nav-tab-button-label-hover-color)
     &.vclSelected
       color: var(--tab-nav-tab-selected-color)
-      .vclButton
+      & .vclButton
         color: var(--tab-nav-tab-button-selected-label-color)
         &:hover
           color: var(--tab-nav-tab-button-label-hover-color)
@@ -211,7 +211,7 @@
 .vclTabs
   &.vclTabStyleUni
     border-bottom: 1px solid var(--tab-nav-border-color)
-    .vclTab
+    & .vclTab
       padding-top: 0
       background-color: var(--tab-nav-tab-bg-color--uni)
       color: var(--tab-nav-tab-color--uni)
@@ -232,21 +232,21 @@
         background-color: var(--tab-nav-tab-bg-disabled-color--uni)
 
 .vclTabbable
-  .vclTabContent
+  & .vclTabContent
     border-left: 1px solid var(--tab-nav-border-color)
     border-right: 1px solid var(--tab-nav-border-color)
     border-bottom: 1px solid var(--tab-nav-border-color)
-&.vclTabsLeft
-  .vclTabs.vclTabStyleUni
-    .vclTab
-      &.vclSelected
-        border: 1px solid var(--tab-nav-border-color)
-        border-right: 1px solid var(--tab-nav-tab-bg-color--uni)
-&.vclTabsRight
-  .vclTabs.vclTabStyleUni
-    .vclTab
-      &.vclSelected
-        border: 1px solid var(--tab-nav-border-color)
-        border-left: 1px solid var(--tab-nav-tab-bg-color--uni)
-  .vclTabContent
     border: 0
+  &.vclTabsLeft
+    & .vclTabs.vclTabStyleUni
+      & .vclTab
+        &.vclSelected
+          border: 1px solid var(--tab-nav-border-color)
+          border-right: 1px solid var(--tab-nav-tab-bg-color--uni)
+  &.vclTabsRight
+    & .vclTabs.vclTabStyleUni
+      & .vclTab
+        &.vclSelected
+          border: 1px solid var(--tab-nav-border-color)
+          border-left: 1px solid var(--tab-nav-tab-bg-color--uni)
+
